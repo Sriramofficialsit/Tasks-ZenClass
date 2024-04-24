@@ -1,0 +1,17 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP/1.1:
+
+1.Uses separate connections for each resource, leading to potential bottlenecks.
+2.Headers are not compressed, causing overhead.
+3.No built-in support for server push.
+4.No prioritization of resources, potentially slowing down page load times.
+5.Errors can interrupt the entire page loading process.
+
+HTTP/2:
+
+1.Uses a single connection for multiple resources, reducing latency.
+2.Compresses headers, reducing overhead.
+3.Supports server push, improving performance.
+4.Prioritizes resources, speeding up page load times.
+5.Errors are isolated, minimizing impact on other resources.
